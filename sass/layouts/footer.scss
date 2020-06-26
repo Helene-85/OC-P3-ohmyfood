@@ -1,0 +1,24 @@
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: $color-primary;
+    font-family: 'Montserrat400';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    position: fixed;
+    bottom: 0;
+
+    & a {
+        color: $color-secondary;
+        text-decoration: none;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.9em;
+    }
+    a:hover {
+      -webkit-animation: vibrate-3 0.8s steps(2, end) infinite both;
+          animation: vibrate-3 0.8s steps(2, end) infinite both;
+    }
+  }

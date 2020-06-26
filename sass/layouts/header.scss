@@ -1,0 +1,12 @@
+header {
+    width: 100%;
+    height: 200px;
+    background-color: $color-primary;
+    color: $color-secondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-maintitle;
+    font-size: 2.5em;
+    font-weight: bold;
+}

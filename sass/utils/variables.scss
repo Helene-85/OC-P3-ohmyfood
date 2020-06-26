@@ -1,0 +1,35 @@
+ /*fonts*/
+
+$font-maintitle:'Montserrat', sans-serif;
+$font-note:'Damion', cursive;
+$font-secondary:'Caveat', cursive;
+$font-chic:'Yeseva One', serif;
+$font-chic-2:'Cantata One', serif;
+$font-delice:'Dancing Script', cursive;
+$font-palette:'Kaushan Script', cursive;
+
+/*colors*/
+
+$color-primary: #579c85;
+$color-secondary: #fcca53;
+$color-menu1: #fcdfdb;
+$color-menu1-1: #3d1319;
+$color-menu2: #fff5fe;
+$color-menu2-1: #c77412;
+$color-menu2-2: #a56799;
+$color-menu3: #f9f9f9;
+$color-menu3-1: #0887fb;
+$color-menu3-2: #0670f3;
+$color-menu3-3: #229df9;
+$color-menu4: #fdfffd;
+$color-menu4-1: #45993e;
+$color-menu4-2: #beff7f;
+
+/*dégradés*/
+
+$degrad-rouge-orange: linear-gradient(#f05160 0%, #f6916a 100%);
+$degrad-orange-violet: linear-gradient($color-menu2-1 0%, $color-menu2-2 100%);
+$degrad-bleus: linear-gradient($color-menu3-2 0%, $color-menu3-3 100%);
+$degrad-vert1: linear-gradient($color-menu4-1 0%, $color-menu4-2 100%);
+$degrad-vert2: linear-gradient($color-menu4-2 0%, $color-menu4-1 100%);
+

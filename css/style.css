@@ -1,0 +1,305 @@
+@charset "UTF-8";
+/*fonts*/
+/*colors*/
+/*dégradés*/
+@font-face {
+  font-family: "Montserrat700";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat400";
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Damion";
+  src: url("../fonts/Damion-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Caveat-Bold";
+  src: url("../fonts/Caveat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Caveat-Regular";
+  src: url("../fonts/Caveat-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Yeseva One";
+  src: url("../fonts/YesevaOne-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cantata One";
+  src: url("../fonts/CantataOne-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Dancing Script";
+  src: url("../fonts/DancingScript-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "KaushanScript";
+  src: url("../fonts/KaushanScript-Regular.ttf") format("truetype");
+}
+/* animation liens footer */
+@-webkit-keyframes vibrate-3 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  10% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  20% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  30% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  50% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  70% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  90% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@keyframes vibrate-3 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  10% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  20% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  30% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  50% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  70% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  90% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+/*animation dot*/
+@-webkit-keyframes blink-2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink-2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+header {
+  width: 100%;
+  height: 200px;
+  background-color: #579c85;
+  color: #fcca53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #579c85;
+  font-family: "Montserrat400";
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  position: fixed;
+  bottom: 0;
+}
+footer a {
+  color: #fcca53;
+  text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 1.9em;
+}
+footer a:hover {
+  -webkit-animation: vibrate-3 0.8s steps(2, end) infinite both;
+  animation: vibrate-3 0.8s steps(2, end) infinite both;
+}
+
+body, h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/*PROCHAINEMENT*/
+button {
+  height: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #579c85;
+  color: #fcca53;
+  font-family: "Montserrat400";
+  font-size: 1.9em;
+}
+
+.btn {
+  margin-top: 50px;
+}
+
+.dot1 {
+  -webkit-animation: blink-2 0.9s 1s infinite both;
+  animation: blink-2 0.9s 1s infinite both;
+}
+
+.dot2 {
+  -webkit-animation: blink-2 0.9s 1.1s infinite both;
+  animation: blink-2 0.9s 1.1s infinite both;
+}
+
+.dot3 {
+  -webkit-animation: blink-2 0.9s 1.2s infinite both;
+  animation: blink-2 0.9s 1.2s infinite both;
+}
+
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.accueil {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.accueil-menu-1 {
+  width: 200px;
+  height: 300px;
+  padding-top: 30px;
+  background-color: #fcdfdb;
+  box-shadow: 0px 0px 4px 5px #f1f1f1;
+  justify-content: space-between;
+}
+.accueil-menu-1 a {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.accueil-menu-2 {
+  width: 200px;
+  height: 300px;
+  padding-top: 30px;
+  background-color: #fff5fe;
+  box-shadow: 0px 0px 4px 5px #f1f1f1;
+}
+.accueil-menu-2 a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.accueil-menu-3 {
+  width: 200px;
+  height: 300px;
+  padding-top: 30px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 4px 5px #f1f1f1;
+}
+.accueil-menu-3 a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.accueil-menu-4 {
+  width: 200px;
+  height: 300px;
+  padding-top: 30px;
+  background-color: #fdfffd;
+  box-shadow: 0px 0px 4px 5px #f1f1f1;
+}
+.accueil-menu-4 a {
+  text-align: center;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
