@@ -169,7 +169,8 @@ header {
 
 footer {
   width: 100%;
-  height: 200px;
+  height: 140px;
+  margin-top: 50px;
   background-color: #579c85;
   font-family: "Montserrat400";
   display: flex;
@@ -191,6 +192,44 @@ footer a:hover {
   animation: vibrate-3 0.8s steps(2, end) infinite both;
 }
 
+.mentions_legales {
+  padding: 50px 150px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat400";
+}
+@media screen and (max-width: 991px) {
+  .mentions_legales {
+    align-items: center;
+    padding: 50px 100px;
+  }
+}
+@media screen and (max-width: 699px) {
+  .mentions_legales {
+    padding: 50px;
+  }
+}
+.mentions_legales h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.mentions_legales h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
 body, h1, h2, h3, h4, h5, p {
   margin: 0;
 }
@@ -198,6 +237,69 @@ body, h1, h2, h3, h4, h5, p {
 body {
   display: flex;
   flex-direction: column;
+}
+
+main {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.accueil {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.accueil-menu-1 {
+  width: 200px;
+  height: 300px;
+  padding-top: 30px;
+  background-color: #fcdfdb;
+  box-shadow: 0px 0px 4px 5px #f1f1f1;
+}
+.accueil-menu-1 a {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.accueil-menu-2 {
+  width: 200px;
+  height: 300px;
+  padding-top: 30px;
+  background-color: #fff5fe;
+  box-shadow: 0px 0px 4px 5px #f1f1f1;
+}
+.accueil-menu-2 a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.accueil-menu-3 {
+  width: 200px;
+  height: 300px;
+  padding-top: 30px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 4px 5px #f1f1f1;
+}
+.accueil-menu-3 a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.accueil-menu-4 {
+  width: 200px;
+  height: 300px;
+  padding-top: 30px;
+  background-color: #fdfffd;
+  box-shadow: 0px 0px 4px 5px #f1f1f1;
+}
+.accueil-menu-4 a {
+  text-align: center;
+  text-decoration: none;
 }
 
 /*PROCHAINEMENT*/
@@ -235,71 +337,6 @@ button {
 .dot3 {
   -webkit-animation: blink-2 0.9s 1.2s infinite both;
   animation: blink-2 0.9s 1.2s infinite both;
-}
-
-main {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-}
-
-.accueil {
-  display: flex;
-  align-content: space-around;
-  flex-wrap: wrap;
-}
-
-.accueil-menu-1 {
-  width: 200px;
-  height: 300px;
-  padding-top: 30px;
-  background-color: #fcdfdb;
-  box-shadow: 0px 0px 4px 5px #f1f1f1;
-  justify-content: space-between;
-}
-.accueil-menu-1 a {
-  width: 200px;
-  height: 300px;
-  text-align: center;
-  text-decoration: none;
-  justify-content: space-between;
-}
-
-.accueil-menu-2 {
-  width: 200px;
-  height: 300px;
-  padding-top: 30px;
-  background-color: #fff5fe;
-  box-shadow: 0px 0px 4px 5px #f1f1f1;
-}
-.accueil-menu-2 a {
-  text-align: center;
-  text-decoration: none;
-}
-
-.accueil-menu-3 {
-  width: 200px;
-  height: 300px;
-  padding-top: 30px;
-  background-color: #f9f9f9;
-  box-shadow: 0px 0px 4px 5px #f1f1f1;
-}
-.accueil-menu-3 a {
-  text-align: center;
-  text-decoration: none;
-}
-
-.accueil-menu-4 {
-  width: 200px;
-  height: 300px;
-  padding-top: 30px;
-  background-color: #fdfffd;
-  box-shadow: 0px 0px 4px 5px #f1f1f1;
-}
-.accueil-menu-4 a {
-  text-align: center;
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
