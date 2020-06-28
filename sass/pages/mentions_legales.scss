@@ -1,0 +1,33 @@
+.mentions_legales {
+    padding: 50px 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat400';
+    @media screen and (max-width: 991px) {
+        align-items: center;
+        padding: 50px 100px;
+    }
+    @media screen and (max-width: 699px) {
+        padding: 50px;
+    }
+  & h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+  & h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+  }
+}
