@@ -1,0 +1,14 @@
+{
+  "name": "oc-p3",
+  "version": "1.0.0",
+  "description": "projet 3 openclassrooms",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "author": "Hélène Bunel",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.26.9"
+  }
+}
