@@ -19,6 +19,9 @@ body {
 }
 
 main {
+    max-width: 1200px;
+    min-height: 1400px;
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 150px;
     display: flex;
@@ -28,7 +31,8 @@ main {
 
 .block {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     & a {
         text-decoration: none;
         width: 100%;
@@ -44,19 +48,20 @@ main {
     & h2 {
         padding-top: 200px;
         color: $color-menu1-1;
-        font-size: 2em;
+        font-size: 2.2em;
     }
     & p {
         padding-top: 40px;
         padding-bottom: 200px;
-        font-size: 3.5em;
+        font-size: 3em;
     }
 }
 
 .accueil-menu-1 {
-    width: 20%;
+    width: 400px;
     margin-left: 40px;
     margin-right: 20px;
+    margin-bottom: 30px;
     background-color: $color-menu1;
     box-shadow: 0px 0px 4px 5px #f1f1f1;
     & h2 {
@@ -75,10 +80,10 @@ main {
         background: -webkit-linear-gradient(right, $color-note-1, $color-note-2);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        padding-top: 160px;
+        padding-top: 180px;
         font-size: 3em;
     }
-    &:hover {
+    .link:hover {
         transform: scale(1.1);
         opacity: 0.5;
         }
@@ -86,9 +91,10 @@ main {
 
 
 .accueil-menu-2 {
-    width: 20%;
+    width: 400px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 30px;
     background-color: $color-menu2;
     box-shadow: 0px 0px 4px 5px #f1f1f1;
     & h2 {
@@ -98,21 +104,22 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    margin-top: 30px;
     }
     & p {
     color: $color-menu2-1;
     padding-top: 45px;
     font-weight: bold;
     }
-    &:hover {
+    .link:hover {
         transform: scale(1.1);
         opacity: 0.5;
         }
 }
 
 .accueil-menu-3 {
-    width: 20%;
-    margin-left: 20px;
+    width: 400px;
+    margin-left: 60px;
     margin-right: 20px;
     background-color: $color-menu3;
     box-shadow: 0px 0px 4px 5px #f1f1f1;
@@ -127,15 +134,16 @@ main {
     & p {
     font-family: $font-secondary;
     color: $color-menu3-3;
+    font-size: 3.5em;
     }
-    &:hover {
-    transform: scale(1.1);
-    opacity: 0.5;
-    }
+    .link:hover {
+        transform: scale(1.1);
+        opacity: 0.5;
+        }
 }
 
 .accueil-menu-4 {
-    width: 20%;
+    width: 400px;
     margin-left: 20px;
     margin-right: 40px;
     background-color: $color-menu4;
@@ -151,11 +159,12 @@ main {
     & p {
     font-family: $font-secondary;
     color: $color-menu4-3;
+    font-size: 3.5em;
     }
-    &:hover {
-    transform: scale(1.1);
-    opacity: 0.5;
-    }
+    .link:hover {
+        transform: scale(1.1);
+        opacity: 0.5;
+        }
 }
 
 /*PROCHAINEMENT*/
