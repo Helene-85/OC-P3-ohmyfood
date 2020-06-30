@@ -1,4 +1,4 @@
-Lien vers la page web :
+Lien vers la page web : https://helene-mb.github.io/OC-P3-ohmyfood/
 - Réalisé par : Hélène Bunel
 - Contenu : Site web du projet 3 de la formation Développeur Web Junior d'Openclassrooms
 "Dynamisez une page web avec des animations CSS"
