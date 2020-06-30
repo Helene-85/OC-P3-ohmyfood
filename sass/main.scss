@@ -76,12 +76,8 @@ main {
         text-transform: uppercase;
         font-weight: bold;
     }
-    & .icone {
-        background: -webkit-linear-gradient(right, $color-note-1, $color-note-2);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    & img {
         padding-top: 180px;
-        font-size: 3em;
     }
     .link:hover {
         transform: scale(1.1);

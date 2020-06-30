@@ -1,0 +1,181 @@
+header a {
+    text-decoration: none;
+        &:visited {
+     color: $color-secondary;
+    }
+}
+
+.menu-2-2 {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    background-color: $color-menu2;
+    box-shadow: 0px 0px 4px 5px #f1f1f1;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.block__meals-line {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.block__title-2-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    & h4 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        color: $color-menu2-1;
+        position: relative;
+    & img {
+        max-height: 20px;
+    }
+}
+
+h4:before {
+        content:"";
+        position:absolute;
+        width:100%;
+        height:3px;
+        bottom:0;
+        left:0;
+        background-color: $color-menu2-1;
+        transform:scaleX(0);
+        transform-origin: left;
+        transition:all 600ms ease-in-out;
+    }
+    & h4:hover:before {
+        visibility:visible;
+        transform:scaleX(1)
+    }
+}
+
+.section__header-2 {
+    text-align: center;
+    padding-bottom: 100px;
+    & h3 {
+    font-size: 2.5em;
+    font-family: $font-chic;
+    font-weight: lighter;
+    background: -webkit-gradient(linear, left top, right bottom, from($color-menu2-1), to($color-menu2-2));
+    background: gradient(linear, left top, right bottom, from($color-menu2-1), to($color-menu2-2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+}
+
+.block__meals-1 {
+    color: $color-menu2-1;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+
+.block__title-2-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    & h4 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        color: $color-menu2-3;
+        position: relative;
+    & img {
+        max-height: 20px;
+    }
+}
+
+h4:before {
+        content:"";
+        position:absolute;
+        width:100%;
+        height:3px;
+        bottom:0;
+        left:0;
+        background-color: $color-menu2-3;
+        transform:scaleX(0);
+        transform-origin: left;
+        transition:all 600ms ease-in-out;
+    }
+    & h4:hover:before {
+        visibility:visible;
+        transform:scaleX(1)
+    }
+}
+
+.block__meals-2-2 {
+    color: $color-menu2-3;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+
+.block__title-2-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    & h4 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        padding-left: 8px;
+        color: $color-menu2-2;
+        position: relative;
+    & img {
+        max-height: 20px;
+    }
+}
+
+h4:before {
+        content:"";
+        position:absolute;
+        width:100%;
+        height:3px;
+        bottom:0;
+        left:0;
+        background-color: $color-menu2-2;
+        transform:scaleX(0);
+        transform-origin: left;
+        transition:all 600ms ease-in-out;
+    }
+    & h4:hover:before {
+        visibility:visible;
+        transform:scaleX(1)
+    }
+}
+
+.block__meals-2-3 {
+    color: $color-menu2-2;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    padding-left: 60px;
+    padding-right: 60px;
+}
