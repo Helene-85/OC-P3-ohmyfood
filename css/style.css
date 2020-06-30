@@ -907,22 +907,12 @@ header a:visited {
 }
 
 .mentions_legales {
-  padding: 50px 150px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-bottom: 150px;
   display: flex;
   justify-content: center;
   font-family: "Montserrat400";
-}
-@media screen and (max-width: 991px) {
-  .mentions_legales {
-    align-items: center;
-    padding: 50px 100px;
-  }
-}
-@media screen and (max-width: 699px) {
-  .mentions_legales {
-    padding: 50px;
-  }
 }
 .mentions_legales h2 {
   display: flex;
@@ -930,7 +920,7 @@ header a:visited {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
   font-weight: bold;
 }
 .mentions_legales h3 {
@@ -939,9 +929,12 @@ header a:visited {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   padding-top: 30px;
   font-weight: bold;
+}
+.mentions_legales p {
+  padding-bottom: 20px;
 }
 
 body, h1, h2, h3, h4, h5, p {
@@ -986,6 +979,8 @@ main {
   padding-top: 200px;
   color: #3d1319;
   font-size: 2.2em;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .link p {
   padding-top: 40px;
