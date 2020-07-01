@@ -66,6 +66,10 @@ main {
     margin-bottom: 30px;
     background-color: $color-menu1;
     box-shadow: 0px 0px 4px 5px #f1f1f1;
+    @media screen and (max-width: 768px) {
+        max-width: 300px;
+        font-size: 0.8em;
+    }
     & h2 {
         font-size: 3em;
         padding-top: 5px;
@@ -95,6 +99,10 @@ main {
     margin-bottom: 30px;
     background-color: $color-menu2;
     box-shadow: 0px 0px 4px 5px #f1f1f1;
+    @media screen and (max-width: 768px) {
+        max-width: 300px;
+        font-size: 0.8em;
+    }
     & h2 {
     font-family: $font-chic;
     background: -webkit-gradient(linear, left top, right bottom, from($color-menu2-1), to($color-menu2-2));
@@ -121,6 +129,10 @@ main {
     margin-right: 20px;
     background-color: $color-menu3;
     box-shadow: 0px 0px 4px 5px #f1f1f1;
+    @media screen and (max-width: 768px) {
+        max-width: 300px;
+        font-size: 0.8em;
+    }
     & h2 {
     font-family: $font-delice;
     background: -webkit-gradient(linear, left top, right bottom, from($color-menu3-2), to($color-menu3-1));
@@ -146,6 +158,10 @@ main {
     margin-right: 40px;
     background-color: $color-menu4;
     box-shadow: 0px 0px 4px 5px #f1f1f1;
+    @media screen and (max-width: 768px) {
+        max-width: 300px;
+        font-size: 0.8em;
+    }
     & h2 {
     font-family: $font-palette;
     background: -webkit-gradient(linear, left top, right bottom, from($color-menu4-1), to($color-menu4-2));
@@ -178,6 +194,10 @@ button {
     color: $color-secondary;  
     font-family: 'Montserrat400';;      
     font-size: 2.5em;
+    @media screen and (max-width: 768px) {
+        max-width: 300px;
+        font-size: 1.5em;
+    }
 }
 
 .prochainement {

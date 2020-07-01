@@ -12,6 +12,13 @@ header a {
     display: flex;
     justify-content: center;
     font-family: 'Montserrat400';
+    @media screen and (max-width: 991px) {
+      align-items: center;
+      padding: 50px 100px;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 50px;
+    }
   & h2 {
     display: flex;
     justify-content: center;
