@@ -192,6 +192,7 @@ header {
 @media screen and (max-width: 768px) {
   header {
     font-size: 1.5em;
+    margin-bottom: 50px;
   }
 }
 
@@ -1108,6 +1109,11 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 768px) {
+  main {
+    margin: unset;
+  }
+}
 
 .block {
   display: flex;
@@ -1299,6 +1305,11 @@ button {
 .prochainement {
   margin-bottom: 50px;
   margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .prochainement {
+    margin-bottom: 200px;
+  }
 }
 
 .btn {

@@ -27,6 +27,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @media screen and (max-width: 768px) {
+        margin: unset;
+    }
 }
 
 .block {
@@ -207,6 +210,9 @@ button {
 .prochainement {
     margin-bottom: 50px;
     margin-top: 20px;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 200px;
+    }
 }
 
 .btn {
