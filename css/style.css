@@ -41,110 +41,42 @@
   src: url("../fonts/Devonshire-Regular.ttf") format("truetype");
 }
 /* animation liens footer */
-@-webkit-keyframes vibrate-3 {
-  0% {
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-  10% {
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px);
-  }
-  20% {
-    -webkit-transform: translate(2px, -2px);
-    transform: translate(2px, -2px);
-  }
-  30% {
-    -webkit-transform: translate(-2px, 2px);
-    transform: translate(-2px, 2px);
-  }
-  40% {
-    -webkit-transform: translate(2px, 2px);
-    transform: translate(2px, 2px);
-  }
-  50% {
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px);
-  }
-  60% {
-    -webkit-transform: translate(2px, -2px);
-    transform: translate(2px, -2px);
-  }
-  70% {
-    -webkit-transform: translate(-2px, 2px);
-    transform: translate(-2px, 2px);
-  }
-  80% {
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px);
-  }
-  90% {
-    -webkit-transform: translate(2px, -2px);
-    transform: translate(2px, -2px);
-  }
-  100% {
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-}
 @keyframes vibrate-3 {
   0% {
-    -webkit-transform: translate(0);
     transform: translate(0);
   }
   10% {
-    -webkit-transform: translate(-2px, -2px);
     transform: translate(-2px, -2px);
   }
   20% {
-    -webkit-transform: translate(2px, -2px);
     transform: translate(2px, -2px);
   }
   30% {
-    -webkit-transform: translate(-2px, 2px);
     transform: translate(-2px, 2px);
   }
   40% {
-    -webkit-transform: translate(2px, 2px);
     transform: translate(2px, 2px);
   }
   50% {
-    -webkit-transform: translate(-2px, -2px);
     transform: translate(-2px, -2px);
   }
   60% {
-    -webkit-transform: translate(2px, -2px);
     transform: translate(2px, -2px);
   }
   70% {
-    -webkit-transform: translate(-2px, 2px);
     transform: translate(-2px, 2px);
   }
   80% {
-    -webkit-transform: translate(-2px, -2px);
     transform: translate(-2px, -2px);
   }
   90% {
-    -webkit-transform: translate(2px, -2px);
     transform: translate(2px, -2px);
   }
   100% {
-    -webkit-transform: translate(0);
     transform: translate(0);
   }
 }
 /*animation dot*/
-@-webkit-keyframes blink-2 {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.2;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes blink-2 {
   0% {
     opacity: 1;
@@ -157,23 +89,11 @@
   }
 }
 /* animation scale-up-center*/
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
 @keyframes scale-up-center {
   0% {
-    -webkit-transform: scale(0.5);
     transform: scale(0.5);
   }
   100% {
-    -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
@@ -1161,7 +1081,6 @@ main {
 }
 @media screen and (max-width: 768px) {
   .accueil-menu-1 {
-    max-width: 300px;
     font-size: 0.8em;
   }
 }
@@ -1195,7 +1114,6 @@ main {
 }
 @media screen and (max-width: 768px) {
   .accueil-menu-2 {
-    max-width: 300px;
     font-size: 0.8em;
   }
 }
@@ -1227,7 +1145,6 @@ main {
 }
 @media screen and (max-width: 768px) {
   .accueil-menu-3 {
-    max-width: 300px;
     font-size: 0.8em;
   }
 }
@@ -1258,7 +1175,6 @@ main {
 }
 @media screen and (max-width: 768px) {
   .accueil-menu-4 {
-    max-width: 300px;
     font-size: 0.8em;
     margin-top: 30px;
   }
