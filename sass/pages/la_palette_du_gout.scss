@@ -32,8 +32,8 @@ header a {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    @media screen and (max-width: 1199px) {
-        flex-direction: column;
+    @media screen and (max-width: 768px) {
+        font-size: 0.6em;
     }
     & h4 {
         padding-left: 80px;
@@ -41,8 +41,18 @@ header a {
         font-size: 2em;
         font-weight: lighter;
         position: relative;
+        @media screen and (max-width: 1199px) {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     & img {
-        max-height: 20px;
+        max-height: 80px;
+    }
+}
+
+img {
+    @media screen and (max-width: 991px) {
+        max-width: 40px;
     }
 }
 
@@ -70,8 +80,8 @@ h4:before {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    @media screen and (max-width: 1199px) {
-        flex-direction: column;
+    @media screen and (max-width: 768px) {
+        font-size: 0.6em;
     }
     & h4 {
         padding-left: 15px;
@@ -79,8 +89,18 @@ h4:before {
         font-size: 2em;
         font-weight: lighter;
         position: relative;
+        @media screen and (max-width: 1199px) {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     & img {
         max-height: 20px;
+    }
+}
+
+img {
+    @media screen and (max-width: 991px) {
+        max-width: 40px;
     }
 }
 
@@ -108,8 +128,9 @@ h4:before {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    @media screen and (max-width: 1199px) {
-        flex-direction: column;
+    @media screen and (max-width: 768px) {
+        font-size: 0.6em;
+        text-align: center;
     }
     & h4 {
         padding-left: 10px;
@@ -117,8 +138,18 @@ h4:before {
         font-size: 2em;
         font-weight: lighter;
         position: relative;
+        @media screen and (max-width: 1199px) {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
     & img {
         max-height: 20px;
+    }
+}
+
+img {
+    @media screen and (max-width: 991px) {
+        max-width: 40px;
     }
 }
 
@@ -144,7 +175,8 @@ h4:before {
     text-align: center;
     padding-bottom: 50px;
     @media screen and (max-width: 768px) {
-        padding-bottom: 30px;
+        padding-bottom: 5px;
+        font-size: 0.8em;
     }
     & h3 {
     font-size: 3em;
@@ -161,6 +193,9 @@ h4:before {
 .block__meals-4 {
     padding-left: 60px;
     padding-right: 60px;
+    @media screen and (max-width: 768px) {
+        padding: 10px;
+    }
 }
 
 .block__meals-line-4 {
@@ -169,9 +204,11 @@ h4:before {
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-    @media screen and (max-width: 1199px) {
-        flex-wrap: wrap;
-        padding-top: 10px;
-        padding-bottom: 10px;
+    @media screen and (max-width: 768px) {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+    & .price {
+        padding-left: 20px;
     }
 }
