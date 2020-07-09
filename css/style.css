@@ -170,7 +170,7 @@ header a:visited {
   background-color: #fcdfdb;
   box-shadow: 0px 0px 4px 5px #f1f1f1;
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
   font-family: "Caveat-Regular", serif;
   font-size: 1.5em;
   font-weight: lighter;
@@ -430,7 +430,7 @@ header a:visited {
   background-color: #fdfffd;
   box-shadow: 0px 0px 4px 5px #f1f1f1;
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
   font-family: "Caveat-Regular", serif;
   font-size: 1.5em;
   font-weight: lighter;
@@ -707,7 +707,7 @@ header a:visited {
   background-color: #fff5fe;
   box-shadow: 0px 0px 4px 5px #f1f1f1;
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.5em;
   font-weight: lighter;
@@ -992,7 +992,7 @@ header a:visited {
   background-color: #f9f9f9;
   box-shadow: 0px 0px 4px 5px #f1f1f1;
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
   font-family: "Caveat-Regular", serif;
   font-size: 1.5em;
   font-weight: lighter;
@@ -1276,7 +1276,7 @@ header a:visited {
 .mentions_legales {
   padding-left: 50px;
   padding-right: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
   display: flex;
   justify-content: center;
   font-family: "Montserrat400";
@@ -1527,7 +1527,6 @@ button {
 
 .prochainement {
   margin-bottom: 50px;
-  margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
   .prochainement {
