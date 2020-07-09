@@ -59,7 +59,6 @@ img {
     }
 }
 
-
 h4:before {
         content:"";
         position:absolute;
@@ -75,29 +74,6 @@ h4:before {
     & h4:hover:before {
         visibility:visible;
         transform:scaleX(1)
-    }
-}
-
-.section__header-2 {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 80px;
-    @media screen and (max-width: 768px) {
-        padding-top: 0px;
-        padding-bottom: 50px;
-    }
-    & h3 {
-    font-size: 2.5em;
-    font-family: $font-chic;
-    font-weight: lighter;
-    background: -webkit-gradient(linear, left top, right bottom, from($color-menu2-1), to($color-menu2-2));
-    background: gradient(linear, left top, right bottom, from($color-menu2-1), to($color-menu2-2));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-        @media screen and (max-width: 768px) {
-            font-size: 1.5em;
-        }
     }
 }
 
@@ -189,7 +165,6 @@ h4:before {
         font-size: 1em;
         font-weight: lighter;
         letter-spacing: 1px;
-        padding-left: 8px;
         color: $color-menu2-2;
         position: relative;
         @media screen and (max-width: 1199px) {
@@ -199,7 +174,7 @@ h4:before {
         }
     & img {
         max-height: 80px;
-    }
+    } 
 }
 
 img {
@@ -256,5 +231,28 @@ h4:before {
     }
     & .price-2 {
         padding-left: 20px;
+    }
+} 
+
+.section__header-2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    @media screen and (max-width: 768px) {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    & h3 {
+    font-size: 2.5em;
+    font-family: $font-chic;
+    font-weight: lighter;
+    background: -webkit-gradient(linear, left top, right bottom, from($color-menu2-1), to($color-menu2-2));
+    background: gradient(linear, left top, right bottom, from($color-menu2-1), to($color-menu2-2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+        @media screen and (max-width: 768px) {
+            font-size: 1.5em;
+        }
     }
 }

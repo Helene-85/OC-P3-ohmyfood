@@ -196,9 +196,11 @@ header a:visited {
 @media screen and (max-width: 768px) {
   .block__title-1 {
     font-size: 0.6em;
+    text-align: center;
   }
 }
-.block__title-1 h4 {
+
+h4 {
   padding-left: 120px;
   padding-right: 120px;
   font-size: 2em;
@@ -206,20 +208,22 @@ header a:visited {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-1 h4 {
+  h4 {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-.block__title-1 h4 img {
+h4 img {
   max-height: 80px;
 }
+
 @media screen and (max-width: 991px) {
-  .block__title-1 img {
+  img {
     max-width: 40px;
   }
 }
-.block__title-1 h4:before {
+
+h4:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -231,7 +235,8 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-1 h4:hover:before {
+
+h4:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -249,7 +254,8 @@ header a:visited {
     text-align: center;
   }
 }
-.block__title-2 h4 {
+
+h4 {
   padding-left: 80px;
   padding-right: 80px;
   font-size: 2em;
@@ -257,20 +263,22 @@ header a:visited {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-2 h4 {
+  h4 {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-.block__title-2 h4 img {
+h4 img {
   max-height: 20px;
 }
+
 @media screen and (max-width: 991px) {
-  .block__title-2 img {
+  img {
     max-width: 40px;
   }
 }
-.block__title-2 h4:before {
+
+h4:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -282,7 +290,8 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-2 h4:hover:before {
+
+h4:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -300,7 +309,8 @@ header a:visited {
     text-align: center;
   }
 }
-.block__title-3 h4 {
+
+h4 {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 2em;
@@ -308,20 +318,22 @@ header a:visited {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-3 h4 {
+  h4 {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-.block__title-3 h4 img {
+h4 img {
   max-height: 20px;
 }
+
 @media screen and (max-width: 991px) {
-  .block__title-3 img {
+  img {
     max-width: 40px;
   }
 }
-.block__title-3 h4:before {
+
+h4:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -333,7 +345,8 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-3 h4:hover:before {
+
+h4:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -447,7 +460,8 @@ header a:visited {
     padding-right: 10px;
   }
 }
-.block__title-4-1 h4 {
+
+h4 {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -455,31 +469,34 @@ header a:visited {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-4-1 h4 {
+  h4 {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
   }
 }
-.block__title-4-1 h4 img {
+h4 img {
   max-height: 80px;
 }
+
 @media screen and (max-width: 991px) {
-  .block__title-4-1 img {
+  img {
     max-width: 200px;
   }
 }
 @media screen and (max-width: 768px) {
-  .block__title-4-1 img {
+  img {
     max-width: 80px;
   }
 }
+
 @media screen and (max-width: 991px) {
-  .block__title-4-1 img {
+  img {
     max-width: 40px;
   }
 }
-.block__title-4-1 h4:before {
+
+h4:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -491,7 +508,8 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-4-1 h4:hover:before {
+
+h4:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -510,7 +528,8 @@ header a:visited {
     padding-right: 10px;
   }
 }
-.block__title-4-2 h4 {
+
+h4 {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -518,26 +537,28 @@ header a:visited {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-4-2 h4 {
+  h4 {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
   }
 }
-.block__title-4-2 h4 img {
+h4 img {
   max-height: 80px;
 }
+
 @media screen and (max-width: 991px) {
-  .block__title-4-2 img {
+  img {
     max-width: 200px;
   }
 }
 @media screen and (max-width: 768px) {
-  .block__title-4-2 img {
+  img {
     max-width: 80px;
   }
 }
-.block__title-4-2 h4:before {
+
+h4:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -549,7 +570,8 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-4-2 h4:hover:before {
+
+h4:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -568,7 +590,8 @@ header a:visited {
     padding-right: 10px;
   }
 }
-.block__title-4-3 h4 {
+
+h4 {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -576,26 +599,28 @@ header a:visited {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-4-3 h4 {
+  h4 {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
   }
 }
-.block__title-4-3 h4 img {
+h4 img {
   max-height: 80px;
 }
+
 @media screen and (max-width: 991px) {
-  .block__title-4-3 img {
+  img {
     max-width: 200px;
   }
 }
 @media screen and (max-width: 768px) {
-  .block__title-4-3 img {
+  img {
     max-width: 80px;
   }
 }
-.block__title-4-3 h4:before {
+
+h4:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -607,7 +632,8 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-4-3 h4:hover:before {
+
+h4:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -752,33 +778,6 @@ header a:visited {
   transform: scaleX(1);
 }
 
-.section__header-2 {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 80px;
-}
-@media screen and (max-width: 768px) {
-  .section__header-2 {
-    padding-top: 0px;
-    padding-bottom: 50px;
-  }
-}
-.section__header-2 h3 {
-  font-size: 2.5em;
-  font-family: "YesevaOne", serif;
-  font-weight: lighter;
-  background: -webkit-gradient(linear, left top, right bottom, from(#d8852e), to(#905bfd));
-  background: gradient(linear, left top, right bottom, from(#d8852e), to(#905bfd));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-@media screen and (max-width: 768px) {
-  .section__header-2 h3 {
-    font-size: 1.5em;
-  }
-}
-
 .block__meals-2 {
   color: #d8852e;
   font-weight: lighter;
@@ -878,7 +877,6 @@ header a:visited {
   font-size: 1em;
   font-weight: lighter;
   letter-spacing: 1px;
-  padding-left: 8px;
   color: #905bfd;
   position: relative;
 }
@@ -953,6 +951,33 @@ header a:visited {
   padding-left: 20px;
 }
 
+.section__header-2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+@media screen and (max-width: 768px) {
+  .section__header-2 {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+}
+.section__header-2 h3 {
+  font-size: 2.5em;
+  font-family: "YesevaOne", serif;
+  font-weight: lighter;
+  background: -webkit-gradient(linear, left top, right bottom, from(#d8852e), to(#905bfd));
+  background: gradient(linear, left top, right bottom, from(#d8852e), to(#905bfd));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@media screen and (max-width: 768px) {
+  .section__header-2 h3 {
+    font-size: 1.5em;
+  }
+}
+
 header a {
   text-decoration: none;
 }
@@ -997,7 +1022,8 @@ header a:visited {
     padding-right: 10px;
   }
 }
-.block__title-3-1 h4 {
+
+h4 {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -1005,26 +1031,28 @@ header a:visited {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-3-1 h4 {
+  h4 {
     padding-left: 2px;
     padding-right: 2px;
     text-align: center;
   }
 }
-.block__title-3-1 h4 img {
+h4 img {
   max-height: 80px;
 }
+
 @media screen and (max-width: 991px) {
-  .block__title-3-1 img {
+  img {
     max-width: 200px;
   }
 }
 @media screen and (max-width: 768px) {
-  .block__title-3-1 img {
+  img {
     max-width: 80px;
   }
 }
-.block__title-3-1 h4:before {
+
+h4:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -1036,7 +1064,8 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-3-1 h4:hover:before {
+
+h4:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -1055,7 +1084,8 @@ header a:visited {
     padding-right: 10px;
   }
 }
-.block__title-3-2 h4 {
+
+h4 {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -1063,26 +1093,28 @@ header a:visited {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-3-2 h4 {
+  h4 {
     padding-left: 2px;
     padding-right: 2px;
     text-align: center;
   }
 }
-.block__title-3-2 h4 img {
+h4 img {
   max-height: 80px;
 }
+
 @media screen and (max-width: 991px) {
-  .block__title-3-2 img {
+  img {
     max-width: 200px;
   }
 }
 @media screen and (max-width: 768px) {
-  .block__title-3-2 img {
+  img {
     max-width: 80px;
   }
 }
-.block__title-3-2 h4:before {
+
+h4:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -1094,7 +1126,8 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-3-2 h4:hover:before {
+
+h4:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -1113,7 +1146,8 @@ header a:visited {
     padding-right: 10px;
   }
 }
-.block__title-3-3 h4 {
+
+h4 {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -1121,26 +1155,28 @@ header a:visited {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-3-3 h4 {
+  h4 {
     padding-left: 2px;
     padding-right: 2px;
     text-align: center;
   }
 }
-.block__title-3-3 h4 img {
+h4 img {
   max-height: 80px;
 }
+
 @media screen and (max-width: 991px) {
-  .block__title-3-3 img {
+  img {
     max-width: 200px;
   }
 }
 @media screen and (max-width: 768px) {
-  .block__title-3-3 img {
+  img {
     max-width: 80px;
   }
 }
-.block__title-3-3 h4:before {
+
+h4:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -1152,7 +1188,8 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-3-3 h4:hover:before {
+
+h4:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -1344,8 +1381,8 @@ main {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 30px;
-  background-color: #fcdfdb;
   box-shadow: 0px 0px 4px 5px #f1f1f1;
+  background-color: #fcdfdb;
 }
 @media screen and (max-width: 768px) {
   .accueil-menu-1 {
@@ -1377,8 +1414,8 @@ main {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 30px;
-  background-color: #fff5fe;
   box-shadow: 0px 0px 4px 5px #f1f1f1;
+  background-color: #fff5fe;
 }
 @media screen and (max-width: 768px) {
   .accueil-menu-2 {
@@ -1408,8 +1445,9 @@ main {
   width: 400px;
   margin-left: 20px;
   margin-right: 20px;
-  background-color: #f9f9f9;
+  margin-bottom: 30px;
   box-shadow: 0px 0px 4px 5px #f1f1f1;
+  background-color: #f9f9f9;
 }
 @media screen and (max-width: 768px) {
   .accueil-menu-3 {
@@ -1438,10 +1476,11 @@ main {
   width: 400px;
   margin-left: 20px;
   margin-right: 20px;
-  background-color: #fdfffd;
+  margin-bottom: 30px;
   box-shadow: 0px 0px 4px 5px #f1f1f1;
+  background-color: #fdfffd;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 879px) {
   .accueil-menu-4 {
     font-size: 0.8em;
     margin-top: 30px;

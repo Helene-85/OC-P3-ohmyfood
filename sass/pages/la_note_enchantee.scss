@@ -26,16 +26,22 @@ header a {
       }
 }
 
-.block__title-1 {
+@mixin block-repeat {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
     @media screen and (max-width: 768px) {
-        font-size: 0.6em;
+    font-size: 0.6em;
+	text-align: center;
     }
-    & h4 {
+}
+
+.block__title-1 {
+    @include block-repeat;
+    }
+    h4 {
         padding-left: 120px;
         padding-right: 120px;
         font-size: 2em;
@@ -68,23 +74,15 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    & h4:hover:before {
+    h4:hover:before {
         visibility:visible;
         transform:scaleX(1)
     }
-}
 
 .block__title-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    @media screen and (max-width: 768px) {
-        font-size: 0.6em;
-        text-align: center;
+    @include block-repeat;
     }
-    & h4 {
+    h4 {
         padding-left: 80px;
         padding-right: 80px;
         font-size: 2em;
@@ -117,23 +115,15 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    & h4:hover:before {
+    h4:hover:before {
         visibility:visible;
         transform:scaleX(1)
     }
-}
 
 .block__title-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    @media screen and (max-width: 768px) {
-        font-size: 0.6em;
-        text-align: center;
+    @include block-repeat;
     }
-    & h4 {
+    h4 {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 2em;
@@ -166,11 +156,10 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    & h4:hover:before {
+    h4:hover:before {
         visibility:visible;
         transform:scaleX(1)
     }
-}
 
 .section__header {
     text-align: center;
@@ -191,7 +180,7 @@ h4:before {
     @media screen and (max-width: 768px) {
         padding: 10px;
     }
-}
+} 
 
 .block__meals-line {
     display: flex;

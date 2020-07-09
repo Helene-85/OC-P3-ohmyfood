@@ -26,7 +26,7 @@ header a {
        }
 }
 
-.block__title-3-1 {
+@mixin block-repeat-3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,12 @@ header a {
         padding-left: 10px;
         padding-right: 10px;
     }
-    & h4 {
+}
+
+.block__title-3-1 {
+    @include block-repeat-3;
+    }
+    h4 {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 1.5em;
@@ -74,24 +79,15 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    & h4:hover:before {
+    h4:hover:before {
         visibility:visible;
-        transform:scaleX(1)
-    }
+        transform:scaleX(1);
 }
 
 .block__title-3-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    @media screen and (max-width: 768px) {
-        font-size: 0.6em;
-        padding-left: 10px;
-        padding-right: 10px;
+    @include block-repeat-3;
     }
-    & h4 {
+    h4 {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 1.5em;
@@ -129,24 +125,15 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    & h4:hover:before {
+    h4:hover:before {
         visibility:visible;
-        transform:scaleX(1)
-    }
+        transform:scaleX(1);
 }
 
 .block__title-3-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    @media screen and (max-width: 768px) {
-        font-size: 0.6em;
-        padding-left: 10px;
-        padding-right: 10px;
+    @include block-repeat-3;
     }
-    & h4 {
+    h4 {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 1.5em;
@@ -183,10 +170,9 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    & h4:hover:before {
+    h4:hover:before {
         visibility:visible;
-        transform:scaleX(1)
-    }
+        transform:scaleX(1);
 }
 
 .section__header-3 {
@@ -209,7 +195,7 @@ h4:before {
         }
     }
 }
-
+ 
 .block__meals-3 {
     padding-left: 60px;
     padding-right: 60px;
