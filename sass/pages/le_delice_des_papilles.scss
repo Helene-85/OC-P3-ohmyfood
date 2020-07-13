@@ -5,6 +5,14 @@ header a {
     }
 }
 
+.delice {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+    font-family: $font-maintitle;
+    letter-spacing: 1px;
+}
+
 .menu-3 {
     width: 1200px;
     margin: auto;
@@ -42,7 +50,7 @@ header a {
 .block__title-3-1 {
     @include block-repeat-3;
     }
-    h4 {
+    .block__title-g {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 1.5em;
@@ -67,7 +75,7 @@ img {
     }
 }
 
-h4:before {
+.block__title-g:before {
         content:"";
         position:absolute;
         width:100%;
@@ -87,7 +95,7 @@ h4:before {
 .block__title-3-2 {
     @include block-repeat-3;
     }
-    h4 {
+    .block__title-h {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 1.5em;
@@ -113,7 +121,7 @@ img {
 }
 
 
-h4:before {
+.block__title-h:before {
         content:"";
         position:absolute;
         width:100%;
@@ -125,15 +133,15 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    h4:hover:before {
+    .block__title-h:hover:before {
         visibility:visible;
         transform:scaleX(1);
-}
+} 
 
 .block__title-3-3 {
     @include block-repeat-3;
     }
-    h4 {
+    .block__title-i {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 1.5em;
@@ -158,7 +166,7 @@ img {
     }
 }
 
-h4:before {
+.block__title-i:before {
         content:"";
         position:absolute;
         width:100%;
@@ -170,7 +178,7 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    h4:hover:before {
+    .block__title-i:hover:before {
         visibility:visible;
         transform:scaleX(1);
 }
@@ -185,11 +193,9 @@ h4:before {
     font-size: 3em;
     font-family: $font-delice;
     font-weight: lighter;
-    background: -webkit-gradient(linear, left top, right bottom, from($color-menu3-2), to($color-menu3-3));
-    background: gradient(linear, left top, right bottom, from($color-menu3-2), to($color-menu3-3));
+    background: linear-gradient(90deg, $color-menu3-2 0%, $color-menu3-3 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: transparent;
         @media screen and (max-width: 768px) {
             font-size: 1.5em;
         }

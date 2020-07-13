@@ -5,6 +5,14 @@ header a {
     }
 }
 
+.note {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+    font-family: $font-maintitle;
+    letter-spacing: 1px;
+}
+
 .menu-1 {
     width: 1200px;
     margin: auto;
@@ -41,10 +49,10 @@ header a {
 .block__title-1 {
     @include block-repeat;
     }
-    h4 {
+    .block__title-a {
         padding-left: 120px;
         padding-right: 120px;
-        font-size: 2em;
+        font-size: 1.5em;
         color: $color-menu1-1;
         position: relative;
         @media screen and (max-width: 1199px) {
@@ -55,14 +63,14 @@ header a {
         max-height: 80px
     }
 }
-
+ 
 img {
     @media screen and (max-width: 991px) {
         max-width: 40px;
     }
 }
 
-h4:before {
+.block__title-a:before {
         content:"";
         position:absolute;
         width:100%;
@@ -74,7 +82,7 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    h4:hover:before {
+    .block__title-a:hover:before {
         visibility:visible;
         transform:scaleX(1)
     }
@@ -82,10 +90,10 @@ h4:before {
 .block__title-2 {
     @include block-repeat;
     }
-    h4 {
+    .block__title-b {
         padding-left: 80px;
         padding-right: 80px;
-        font-size: 2em;
+        font-size: 1.5em;
         color: $color-menu1-1;
         position: relative;
         @media screen and (max-width: 1199px) {
@@ -103,7 +111,7 @@ img {
     }
 }
 
-h4:before {
+.block__title-b:before {
         content:"";
         position:absolute;
         width:100%;
@@ -115,7 +123,7 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    h4:hover:before {
+    .block__title-b:hover:before {
         visibility:visible;
         transform:scaleX(1)
     }
@@ -123,10 +131,10 @@ h4:before {
 .block__title-3 {
     @include block-repeat;
     }
-    h4 {
+    .block__title-c {
         padding-left: 50px;
         padding-right: 50px;
-        font-size: 2em;
+        font-size: 1.5em;
         color: $color-menu1-1;
         position: relative;
         @media screen and (max-width: 1199px) {
@@ -144,7 +152,7 @@ img {
     }
 }
 
-h4:before {
+.block__title-c:before {
         content:"";
         position:absolute;
         width:100%;
@@ -156,7 +164,7 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    h4:hover:before {
+    .block__title-c:hover:before {
         visibility:visible;
         transform:scaleX(1)
     }

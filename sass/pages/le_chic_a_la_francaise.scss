@@ -5,6 +5,14 @@ header a {
     }
 }
 
+.chic {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+    font-family: $font-maintitle;
+    letter-spacing: 1px;
+}
+
 .menu-2-2 {
     width: 1200px;
     margin: auto;
@@ -33,7 +41,7 @@ header a {
     @media screen and (max-width: 768px) {
         font-size: 0.6em;
     }
-    & h4 {
+    & .block__title-d {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 1em;
         font-weight: lighter;
@@ -59,7 +67,7 @@ img {
     }
 }
 
-h4:before {
+.block__title-d:before {
         content:"";
         position:absolute;
         width:100%;
@@ -71,7 +79,7 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    & h4:hover:before {
+    & .block__title-d:hover:before {
         visibility:visible;
         transform:scaleX(1)
     }
@@ -96,7 +104,7 @@ h4:before {
     @media screen and (max-width: 768px) {
         font-size: 0.6em;
     }
-    & h4 {
+    & .block__title-e {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 1em;
         font-weight: lighter;
@@ -122,7 +130,7 @@ img {
     }
 }
 
-h4:before {
+.block__title-e:before {
         content:"";
         position:absolute;
         width:100%;
@@ -134,7 +142,7 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    & h4:hover:before {
+    & .block__title-e:hover:before {
         visibility:visible;
         transform:scaleX(1)
     }
@@ -160,13 +168,14 @@ h4:before {
     @media screen and (max-width: 768px) {
         font-size: 0.6em;
     }
-    & h4 {
+    & .block__title-f {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 1em;
         font-weight: lighter;
         letter-spacing: 1px;
         color: $color-menu2-2;
         position: relative;
+        padding-left: 5px;
         @media screen and (max-width: 1199px) {
             padding-left: 10px;
             padding-right: 10px;
@@ -186,7 +195,7 @@ img {
     }
 }
 
-h4:before {
+.block__title-f:before {
         content:"";
         position:absolute;
         width:100%;
@@ -198,7 +207,7 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    & h4:hover:before {
+    & .block__title-f:hover:before {
         visibility:visible;
         transform:scaleX(1)
     }
@@ -246,11 +255,9 @@ h4:before {
     font-size: 2.5em;
     font-family: $font-chic;
     font-weight: lighter;
-    background: -webkit-gradient(linear, left top, right bottom, from($color-menu2-1), to($color-menu2-2));
-    background: gradient(linear, left top, right bottom, from($color-menu2-1), to($color-menu2-2));
+    background: linear-gradient(90deg, $color-menu2-1 0%, $color-menu2-2 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: transparent;
         @media screen and (max-width: 768px) {
             font-size: 1.5em;
         }

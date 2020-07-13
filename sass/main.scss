@@ -82,7 +82,7 @@ main {
     & h2 {
         font-size: 3em;
         padding-top: 5px;
-        font-family: 'Devonshire', cursive;
+        font-family: $font-note, cursive;
     }
     & p {
         padding-top: 30px;
@@ -109,11 +109,9 @@ main {
     }
     & h2 {
     font-family: $font-chic;
-    background: -webkit-gradient(linear, left top, right bottom, from($color-menu2-1), to($color-menu2-2));
-    background: gradient(linear, left top, right bottom, from($color-menu2-1), to($color-menu2-2));
+    background: linear-gradient(90deg, $color-menu2-1 0%, $color-menu2-2 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: transparent;
     margin-top: 30px;
     }
     & p {
@@ -135,11 +133,9 @@ main {
     }
     & h2 {
     font-family: $font-delice;
-    background: -webkit-gradient(linear, left top, right bottom, from($color-menu3-2), to($color-menu3-1));
-    background: gradient(linear, left top, right bottom, from($color-menu3-2), to($color-menu3-1));
+    background: linear-gradient(90deg, $color-menu3-2 0%, $color-menu3-3 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: transparent;
     }
     & p {
     font-family: $font-secondary;
@@ -161,11 +157,9 @@ main {
     }
     & h2 {
     font-family: $font-palette;
-    background: -webkit-gradient(linear, left top, right bottom, from($color-menu4-1), to($color-menu4-2));
-    background: gradient(linear, left top, right bottom, from($color-menu4-1), to($color-menu4-2));
+    background: linear-gradient(90deg, $color-menu4-1 0%, $color-menu4-2 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: transparent;
     }
     & p {
     font-family: $font-secondary;
@@ -189,7 +183,7 @@ button {
     border-radius: 10px;    
     background-color: $color-primary;         
     color: $color-secondary;  
-    font-family: 'Montserrat400';;      
+    font-family: $font-maintitle;      
     font-size: 2.5em;
     @media screen and (max-width: 768px) {
         max-width: 300px;

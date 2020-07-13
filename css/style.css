@@ -106,7 +106,7 @@ header {
   justify-content: center;
   align-items: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: bold;
 }
 @media screen and (max-width: 768px) {
@@ -163,6 +163,14 @@ header a:visited {
   color: #fcca53;
 }
 
+.note {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+
 .menu-1 {
   width: 1200px;
   margin: auto;
@@ -200,20 +208,20 @@ header a:visited {
   }
 }
 
-h4 {
+.block__title-a {
   padding-left: 120px;
   padding-right: 120px;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #3d1319;
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  h4 {
+  .block__title-a {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-h4 img {
+.block__title-a img {
   max-height: 80px;
 }
 
@@ -223,7 +231,7 @@ h4 img {
   }
 }
 
-h4:before {
+.block__title-a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -236,7 +244,7 @@ h4:before {
   transition: all 600ms ease-in-out;
 }
 
-h4:hover:before {
+.block__title-a:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -255,20 +263,20 @@ h4:hover:before {
   }
 }
 
-h4 {
+.block__title-b {
   padding-left: 80px;
   padding-right: 80px;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #3d1319;
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  h4 {
+  .block__title-b {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-h4 img {
+.block__title-b img {
   max-height: 20px;
 }
 
@@ -278,7 +286,7 @@ h4 img {
   }
 }
 
-h4:before {
+.block__title-b:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -291,7 +299,7 @@ h4:before {
   transition: all 600ms ease-in-out;
 }
 
-h4:hover:before {
+.block__title-b:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -310,20 +318,20 @@ h4:hover:before {
   }
 }
 
-h4 {
+.block__title-c {
   padding-left: 50px;
   padding-right: 50px;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #3d1319;
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  h4 {
+  .block__title-c {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-h4 img {
+.block__title-c img {
   max-height: 20px;
 }
 
@@ -333,7 +341,7 @@ h4 img {
   }
 }
 
-h4:before {
+.block__title-c:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -346,7 +354,7 @@ h4:before {
   transition: all 600ms ease-in-out;
 }
 
-h4:hover:before {
+.block__title-c:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -423,6 +431,14 @@ header a:visited {
   color: #fcca53;
 }
 
+.palette {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+
 .menu-4-4 {
   width: 1200px;
   margin: auto;
@@ -461,7 +477,7 @@ header a:visited {
   }
 }
 
-h4 {
+.block_title-j {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -469,13 +485,13 @@ h4 {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  h4 {
+  .block_title-j {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
   }
 }
-h4 img {
+.block_title-j img {
   max-height: 80px;
 }
 
@@ -496,7 +512,7 @@ h4 img {
   }
 }
 
-h4:before {
+.block_title-j:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -509,7 +525,7 @@ h4:before {
   transition: all 600ms ease-in-out;
 }
 
-h4:hover:before {
+.block_title-j:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -529,7 +545,7 @@ h4:hover:before {
   }
 }
 
-h4 {
+.block__title-k {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -537,13 +553,13 @@ h4 {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  h4 {
+  .block__title-k {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
   }
 }
-h4 img {
+.block__title-k img {
   max-height: 80px;
 }
 
@@ -558,7 +574,7 @@ h4 img {
   }
 }
 
-h4:before {
+.block__title-k:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -571,7 +587,7 @@ h4:before {
   transition: all 600ms ease-in-out;
 }
 
-h4:hover:before {
+.block__title-k:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -591,7 +607,7 @@ h4:hover:before {
   }
 }
 
-h4 {
+.block__title-l {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -599,13 +615,13 @@ h4 {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  h4 {
+  .block__title-l {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
   }
 }
-h4 img {
+.block__title-l img {
   max-height: 80px;
 }
 
@@ -620,7 +636,7 @@ h4 img {
   }
 }
 
-h4:before {
+.block__title-l:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -633,7 +649,7 @@ h4:before {
   transition: all 600ms ease-in-out;
 }
 
-h4:hover:before {
+.block__title-l:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -651,11 +667,9 @@ h4:hover:before {
   font-size: 3em;
   font-family: "KaushanScript", cursive;
   font-family: "KaushanScript", cursive;
-  background: -webkit-gradient(linear, left top, right bottom, from(#42973c), to(#bfff7c));
-  background: gradient(linear, left top, right bottom, from(#42973c), to(#bfff7c));
+  background: linear-gradient(90deg, #42973c 0%, #bfff7c 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: transparent;
 }
 @media screen and (max-width: 768px) {
   .section__header-4 h3 {
@@ -700,6 +714,14 @@ header a:visited {
   color: #fcca53;
 }
 
+.chic {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+
 .menu-2-2 {
   width: 1200px;
   margin: auto;
@@ -733,7 +755,7 @@ header a:visited {
     font-size: 0.6em;
   }
 }
-.block__title-2-1 h4 {
+.block__title-2-1 .block__title-d {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1em;
   font-weight: lighter;
@@ -742,13 +764,13 @@ header a:visited {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-2-1 h4 {
+  .block__title-2-1 .block__title-d {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
   }
 }
-.block__title-2-1 h4 img {
+.block__title-2-1 .block__title-d img {
   max-height: 80px;
 }
 @media screen and (max-width: 991px) {
@@ -761,7 +783,7 @@ header a:visited {
     max-width: 80px;
   }
 }
-.block__title-2-1 h4:before {
+.block__title-2-1 .block__title-d:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -773,7 +795,7 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-2-1 h4:hover:before {
+.block__title-2-1 .block__title-d:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -802,7 +824,7 @@ header a:visited {
     font-size: 0.6em;
   }
 }
-.block__title-2-2 h4 {
+.block__title-2-2 .block__title-e {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1em;
   font-weight: lighter;
@@ -811,13 +833,13 @@ header a:visited {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-2-2 h4 {
+  .block__title-2-2 .block__title-e {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
   }
 }
-.block__title-2-2 h4 img {
+.block__title-2-2 .block__title-e img {
   max-height: 80px;
 }
 @media screen and (max-width: 991px) {
@@ -830,7 +852,7 @@ header a:visited {
     max-width: 80px;
   }
 }
-.block__title-2-2 h4:before {
+.block__title-2-2 .block__title-e:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -842,7 +864,7 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-2-2 h4:hover:before {
+.block__title-2-2 .block__title-e:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -872,22 +894,23 @@ header a:visited {
     font-size: 0.6em;
   }
 }
-.block__title-2-3 h4 {
+.block__title-2-3 .block__title-f {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1em;
   font-weight: lighter;
   letter-spacing: 1px;
   color: #905bfd;
   position: relative;
+  padding-left: 5px;
 }
 @media screen and (max-width: 1199px) {
-  .block__title-2-3 h4 {
+  .block__title-2-3 .block__title-f {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
   }
 }
-.block__title-2-3 h4 img {
+.block__title-2-3 .block__title-f img {
   max-height: 80px;
 }
 @media screen and (max-width: 991px) {
@@ -900,7 +923,7 @@ header a:visited {
     max-width: 80px;
   }
 }
-.block__title-2-3 h4:before {
+.block__title-2-3 .block__title-f:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -912,7 +935,7 @@ header a:visited {
   transform-origin: left;
   transition: all 600ms ease-in-out;
 }
-.block__title-2-3 h4:hover:before {
+.block__title-2-3 .block__title-f:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -966,11 +989,9 @@ header a:visited {
   font-size: 2.5em;
   font-family: "YesevaOne", serif;
   font-weight: lighter;
-  background: -webkit-gradient(linear, left top, right bottom, from(#d8852e), to(#905bfd));
-  background: gradient(linear, left top, right bottom, from(#d8852e), to(#905bfd));
+  background: linear-gradient(90deg, #d8852e 0%, #905bfd 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: transparent;
 }
 @media screen and (max-width: 768px) {
   .section__header-2 h3 {
@@ -983,6 +1004,14 @@ header a {
 }
 header a:visited {
   color: #fcca53;
+}
+
+.delice {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
 }
 
 .menu-3 {
@@ -1023,7 +1052,7 @@ header a:visited {
   }
 }
 
-h4 {
+.block__title-g {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -1031,13 +1060,13 @@ h4 {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  h4 {
+  .block__title-g {
     padding-left: 2px;
     padding-right: 2px;
     text-align: center;
   }
 }
-h4 img {
+.block__title-g img {
   max-height: 80px;
 }
 
@@ -1052,7 +1081,7 @@ h4 img {
   }
 }
 
-h4:before {
+.block__title-g:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -1085,7 +1114,7 @@ h4:hover:before {
   }
 }
 
-h4 {
+.block__title-h {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -1093,13 +1122,13 @@ h4 {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  h4 {
+  .block__title-h {
     padding-left: 2px;
     padding-right: 2px;
     text-align: center;
   }
 }
-h4 img {
+.block__title-h img {
   max-height: 80px;
 }
 
@@ -1114,7 +1143,7 @@ h4 img {
   }
 }
 
-h4:before {
+.block__title-h:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -1127,7 +1156,7 @@ h4:before {
   transition: all 600ms ease-in-out;
 }
 
-h4:hover:before {
+.block__title-h:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -1147,7 +1176,7 @@ h4:hover:before {
   }
 }
 
-h4 {
+.block__title-i {
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
@@ -1155,13 +1184,13 @@ h4 {
   position: relative;
 }
 @media screen and (max-width: 1199px) {
-  h4 {
+  .block__title-i {
     padding-left: 2px;
     padding-right: 2px;
     text-align: center;
   }
 }
-h4 img {
+.block__title-i img {
   max-height: 80px;
 }
 
@@ -1176,7 +1205,7 @@ h4 img {
   }
 }
 
-h4:before {
+.block__title-i:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -1189,7 +1218,7 @@ h4:before {
   transition: all 600ms ease-in-out;
 }
 
-h4:hover:before {
+.block__title-i:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -1207,11 +1236,9 @@ h4:hover:before {
   font-size: 3em;
   font-family: "Dancing Script", cursive;
   font-weight: lighter;
-  background: -webkit-gradient(linear, left top, right bottom, from(#0229dd), to(#229df9));
-  background: gradient(linear, left top, right bottom, from(#0229dd), to(#229df9));
+  background: linear-gradient(90deg, #0229dd 0%, #229df9 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: transparent;
 }
 @media screen and (max-width: 768px) {
   .section__header-3 h3 {
@@ -1392,7 +1419,7 @@ main {
 .accueil-menu-1 h2 {
   font-size: 3em;
   padding-top: 5px;
-  font-family: "Devonshire", cursive;
+  font-family: "Devonshire", cursive, cursive;
 }
 .accueil-menu-1 p {
   padding-top: 30px;
@@ -1424,11 +1451,9 @@ main {
 }
 .accueil-menu-2 h2 {
   font-family: "YesevaOne", serif;
-  background: -webkit-gradient(linear, left top, right bottom, from(#d8852e), to(#905bfd));
-  background: gradient(linear, left top, right bottom, from(#d8852e), to(#905bfd));
+  background: linear-gradient(90deg, #d8852e 0%, #905bfd 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: transparent;
   margin-top: 30px;
 }
 .accueil-menu-2 p {
@@ -1456,11 +1481,9 @@ main {
 }
 .accueil-menu-3 h2 {
   font-family: "Dancing Script", cursive;
-  background: -webkit-gradient(linear, left top, right bottom, from(#0229dd), to(#0887fb));
-  background: gradient(linear, left top, right bottom, from(#0229dd), to(#0887fb));
+  background: linear-gradient(90deg, #0229dd 0%, #229df9 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: transparent;
 }
 .accueil-menu-3 p {
   font-family: "Caveat-Regular", serif;
@@ -1488,11 +1511,9 @@ main {
 }
 .accueil-menu-4 h2 {
   font-family: "KaushanScript", cursive;
-  background: -webkit-gradient(linear, left top, right bottom, from(#42973c), to(#bfff7c));
-  background: gradient(linear, left top, right bottom, from(#42973c), to(#bfff7c));
+  background: linear-gradient(90deg, #42973c 0%, #bfff7c 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: transparent;
 }
 .accueil-menu-4 p {
   font-family: "Caveat-Regular", serif;
@@ -1515,7 +1536,7 @@ button {
   border-radius: 10px;
   background-color: #579c85;
   color: #fcca53;
-  font-family: "Montserrat400";
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5em;
 }
 @media screen and (max-width: 768px) {

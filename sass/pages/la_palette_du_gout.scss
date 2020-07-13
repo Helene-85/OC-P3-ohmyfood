@@ -5,6 +5,14 @@ header a {
     }
 }
 
+.palette {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+    font-family: $font-maintitle;
+    letter-spacing: 1px;
+}
+
 .menu-4-4 {
     width: 1200px;
     margin: auto;
@@ -42,7 +50,7 @@ header a {
 .block__title-4-1 {
     @include block-repeat-4;
     }
-    h4 {
+    .block_title-j {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 1.5em;
@@ -73,7 +81,7 @@ img {
     }
 }
 
-h4:before {
+.block_title-j:before {
         content:"";
         position:absolute;
         width:100%;
@@ -85,7 +93,7 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    h4:hover:before {
+    .block_title-j:hover:before {
         visibility:visible;
         transform:scaleX(1)
 }
@@ -93,7 +101,7 @@ h4:before {
 .block__title-4-2 {
     @include block-repeat-4;
     }
-    h4 {
+    .block__title-k {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 1.5em;
@@ -118,7 +126,7 @@ img {
     }
 }
 
-h4:before {
+.block__title-k:before {
         content:"";
         position:absolute;
         width:100%;
@@ -130,7 +138,7 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    h4:hover:before {
+    .block__title-k:hover:before {
         visibility:visible;
         transform:scaleX(1)
 }
@@ -138,7 +146,7 @@ h4:before {
 .block__title-4-3 {
     @include block-repeat-4;
     }
-    h4 {
+    .block__title-l {
         padding-left: 50px;
         padding-right: 50px;
         font-size: 1.5em;
@@ -163,7 +171,7 @@ img {
     }
 }
 
-h4:before {
+.block__title-l:before {
         content:"";
         position:absolute;
         width:100%;
@@ -175,7 +183,7 @@ h4:before {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    h4:hover:before {
+    .block__title-l:hover:before {
         visibility:visible;
         transform:scaleX(1)
     }
@@ -190,15 +198,13 @@ h4:before {
     font-size: 3em;
     font-family: $font-palette;
     font-family: $font-palette;
-    background: -webkit-gradient(linear, left top, right bottom, from($color-menu4-1), to($color-menu4-2));
-    background: gradient(linear, left top, right bottom, from($color-menu4-1), to($color-menu4-2));
+    background: linear-gradient(90deg, $color-menu4-1 0%, $color-menu4-2 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: transparent;
         @media screen and (max-width: 768px) {
             font-size: 1.5em;
         }
-    }
+    } 
 }
 
 .block__meals-4 {
@@ -208,7 +214,7 @@ h4:before {
         padding: 10px;
     }
 }
-
+ 
 .block__meals-line-4 {
     display: flex;
     justify-content: space-between;
