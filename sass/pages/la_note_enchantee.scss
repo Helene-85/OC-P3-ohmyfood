@@ -25,6 +25,9 @@ header a {
     font-size: 1.5em;
     font-weight: lighter;
     letter-spacing: 1px;
+    & .titre {
+        font-size: 2em;
+    }
     @media screen and (max-width: 1199px) {
        width: 90%;
        display: flex;
@@ -174,7 +177,7 @@ img {
     @media screen and (max-width: 768px) {
         padding-bottom: 5px;
     }
-    & h3 {
+    & h2 {
     font-size: 1.8em;
     font-family: $font-note;
     color: $color-menu1-1;
@@ -215,7 +218,7 @@ img {
     @media screen and (max-width: 768px){
         font-size: 0.6em;
     }
-    & h3 {
+    & h2 {
         padding-left: 20px;
         font-family: $font-note;
         font-size: 2em;

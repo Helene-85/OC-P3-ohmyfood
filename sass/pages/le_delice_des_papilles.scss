@@ -87,7 +87,7 @@ img {
         transform-origin: left;
         transition:all 600ms ease-in-out;
     }
-    h4:hover:before {
+    h3:hover:before {
         visibility:visible;
         transform:scaleX(1);
 }
@@ -189,7 +189,7 @@ img {
     @media screen and (max-width: 768px) {
         padding: 30px;
     }
-    & h3 {
+    & h2 {
     font-size: 3em;
     font-family: $font-delice;
     font-weight: lighter;
@@ -213,6 +213,7 @@ img {
 .block__meals-line-3 {
     display: flex;
     justify-content: space-between;
+    padding-left: 20px;
     padding-right: 50px;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -225,22 +226,5 @@ img {
     }
     & .price-3 {
         padding-left: 20px;
-    }
-}
-
-.section__footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-    & h3 {
-        padding-left: 20px;
-        font-family: $font-note;
-        font-size: 2em;
-        font-weight: lighter;
-        color: $color-menu1-1;
-    }
-    & img {
-        max-height: 60px;
     }
 }

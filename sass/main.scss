@@ -173,7 +173,8 @@ main {
 }
 
 /*PROCHAINEMENT*/
-button {
+
+.prochainement {
     margin: auto;    
     display: flex;    
     justify-content: center;        
@@ -185,21 +186,16 @@ button {
     color: $color-secondary;  
     font-family: $font-maintitle;      
     font-size: 2.5em;
+    margin-bottom: 50px;
     @media screen and (max-width: 768px) {
         max-width: 300px;
         font-size: 1.5em;
-    }
-}
-
-.prochainement {
-    margin-bottom: 50px;
-    @media screen and (max-width: 768px) {
         margin-bottom: 200px;
     }
 }
 
 .btn {
-    margin-top: 50px;
+    margin-top: 50px; 
 }
 
 .dot1 {
