@@ -11,6 +11,9 @@ header a {
     font-size: 2em;
     font-family: $font-maintitle;
     letter-spacing: 1px;
+    @media screen and (max-width: 768px) {
+        font-size: 1em;
+    }
 }
 
 .menu-1 {
@@ -27,12 +30,15 @@ header a {
     letter-spacing: 1px;
     & .titre {
         font-size: 2em;
+        @media screen and (max-width: 768px) {
+            font-size: 1.5em;
+        }
     }
     @media screen and (max-width: 1199px) {
        width: 90%;
        display: flex;
        flex-direction: column;
-       padding-top: 30px;
+       padding-top: 30px; 
        padding-bottom: 30px;
       }
 }
@@ -46,7 +52,7 @@ header a {
     @media screen and (max-width: 768px) {
     font-size: 0.6em;
 	text-align: center;
-    }
+    } 
 }
 
 .block__title-1 {
@@ -181,7 +187,6 @@ img {
     font-size: 1.8em;
     font-family: $font-note;
     color: $color-menu1-1;
-
     }
 }
 
@@ -196,7 +201,7 @@ img {
 .block__meals-line {
     display: flex;
     justify-content: space-between;
-    padding-right: 50px;
+    padding-right: 50px; 
     padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 5px;

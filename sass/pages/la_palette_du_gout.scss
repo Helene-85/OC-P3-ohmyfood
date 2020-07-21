@@ -11,6 +11,9 @@ header a {
     font-size: 2em;
     font-family: $font-maintitle;
     letter-spacing: 1px;
+    @media screen and (max-width: 768px) {
+        font-size: 1em;
+    }
 }
 
 .menu-4-4 {

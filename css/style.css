@@ -170,6 +170,11 @@ header a:visited {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
 }
+@media screen and (max-width: 768px) {
+  .note {
+    font-size: 1em;
+  }
+}
 
 .menu-1 {
   width: 1200px;
@@ -186,6 +191,11 @@ header a:visited {
 }
 .menu-1 .titre {
   font-size: 2em;
+}
+@media screen and (max-width: 768px) {
+  .menu-1 .titre {
+    font-size: 1.5em;
+  }
 }
 @media screen and (max-width: 1199px) {
   .menu-1 {
@@ -440,6 +450,11 @@ header a:visited {
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
+}
+@media screen and (max-width: 768px) {
+  .palette {
+    font-size: 1em;
+  }
 }
 
 .menu-4-4 {
@@ -723,6 +738,11 @@ header a:visited {
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
+}
+@media screen and (max-width: 768px) {
+  .chic {
+    font-size: 1em;
+  }
 }
 
 .menu-2-2 {
@@ -1015,6 +1035,11 @@ header a:visited {
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
+}
+@media screen and (max-width: 768px) {
+  .delice {
+    font-size: 1em;
+  }
 }
 
 .menu-3 {
