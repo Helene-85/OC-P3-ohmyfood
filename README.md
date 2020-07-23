@@ -2,7 +2,7 @@ Lien vers la page web : https://helene-mb.github.io/OC-P3-ohmyfood/
 - Réalisé par : Hélène Bunel
 - Contenu : Site web du projet 3 de la formation Développeur Web Junior d'Openclassrooms
 "Dynamisez une page web avec des animations CSS"
-- Progression : en cours
+- Progression : validé le 22 juillet 2020
 - langages : HTML5, CSS3 avec Visual Studio Code et Sass
 - Source :  Exercice d'évaluation pour la validation du projet 3 de la formation Développeur Web d'Openclassrooms
 - Compétences évaluées :
